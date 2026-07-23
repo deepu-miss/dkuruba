@@ -1,10 +1,936 @@
 [
   {
+    "text": "Gen AI - API Testing Tool\nOCTOBER 11 TH , 2024",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 0,
+      "page_label": "1",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "2 |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nAPI Testing Tool \u2013Accelerating API Quality\nProblem Statement Solution\nAn API testing tool build on Python \nwhich generates test datasets using \nGen AI with the help of two \nendpoints:\n\u2022 /upload \u2013 This endpoint accepts \nswagger file and generate negative, \npositive & runtime test datasets \nbased on the swagger \ndocumentation using Open AI.\n\u2022 /execute \u2013 The datasets received as \nresponse from the upload \nendpoint, when fed to this \nendpoint, executes your APIs with \nthe datasets and returns the \nresponse.\nImpact\nImpact of API testing tool:\n\u2022 Improved coverage with minimal \nefforts \u2013 Broader test coverage with less \neffort, 40 % reduction in effort to achieve \nbetter coverage\n\u2022 Consistency & Reduced maintenance \u2013 \nEnsures that test data remain aligned \nwith current state of API and significantly \nlowers ongoing maintenance burden.\n\u2022 Scalable test management \u2013 \nAutomates the generation of test data &",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 1,
+      "page_label": "2",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "lowers ongoing maintenance burden.\n\u2022 Scalable test management \u2013 \nAutomates the generation of test data & \nexecution of APIs, easily scaling with \ncomplexity & size of project.\n\u2022 Alignment with requirements \u2013 Tests \nare more closely aligned with business \nrequirements, ensuring software meets \nits intended goals.\nLimitations with traditional way of API \ntesting:\n\u2022 Manual effort \u2013 Creating test data \nmanually is time-consuming & prone \nto human error.\n\u2022 Limited coverage \u2013 Test coverage is \nlimited to scenarios explicitly thought \nof by developers, potentially missing \ncritical paths.\n\u2022 Manual updates required \u2013 When \nan API changes, test data must be \nmanually updated to reflect the new \nstructure & functionality. \n\u2022 Scalability issues \u2013 As the project \ngrows, managing and maintaining \nlarge number of APIs & test data \nbecomes increasingly difficult and \nresource-intensive.",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 1,
+      "page_label": "2",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 874
+    }
+  },
+  {
+    "text": "3  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nGlobal Property & Casualty Insurance Provider \nGen AI based API Testing\nA global Insurance provider undergoing digital transformation journey, has 30+ Java \nmicroservices providing integration with the backend data sources and other core \nsystems. With the evolving requirements and scale of the API\u2019s, there is a constant \nchallenge to maintain the quality with minimum manual efforts. \nIMPACT \nSOLUTION\nESTIMATED NET REDUCTION \nOF \u2026\n35%-40% \nIN AUTOMATION TESTING EFFORTS \u2013 4 HOURS SAVED FOR \nTEST SCRIPT, TEST DATA GENERATION, EXECUTION AND RUN \nREPORT FOR A MICROSERVICE CONTAINING 30 APIs, WHICH \nTRADITIONALLY TOOK 10 HOURS\u200b\n\u2022 API testing tool that generates positive, negative, and runtime test datasets based on \nSwagger documentation using Open AI, and can execute API endpoints with these \ndatasets to provide responses\n\u2022 It enhances test efficiency with reusable regression suites and preserves various test \ndatasets",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 2,
+      "page_label": "3",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "datasets to provide responses\n\u2022 It enhances test efficiency with reusable regression suites and preserves various test \ndatasets \n\u2022 It also offers a comprehensive test strategy covering end-to-end capabilities, including \ncorner cases, regression testing, and test data management\nSITUATION\nIMPROVED TEST COVERAGE OF \u2026\n50% \nIN REDUCED EFFORTS COMPARED TO SCRIPTED SCENARIOS \nDUE TO BROADER RANGE OF AUTO GENERATED TESTS, \nINCLUDING CORNER CASES AND UNEXPECTED INPUTS",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 2,
+      "page_label": "3",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 870
+    }
+  },
+  {
+    "text": "4  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nPostman based API Testing Gen AI \u2013 API Testing tool\nTesting approach\n\u2022 Implement test cases for API execution using scripts, for \ngenerating test data for positive and negative scenarios\n\u2022 Execute test cases using scheduled iterations\n\u2022 GUI based tool generates positive, negative, and runtime test datasets \nbased on Swagger documentation using Open AI, and can execute \nAPI endpoints with these datasets to provide responses\nTesting efforts\n\u2022 An average of 10~ hours for limited test data creation, iteratively \nexecute the test cases and generate test execution report\n\u2022 An average of 6~ hours to document strong Swagger \nspecifications for the API endpoints, generate test data and \nexecute the test cases\nTest Coverage \n\u2022 Limited based on the manual combinations of positive and \nnegative data generation scripts implemented\n\u2022 Extensive positive, negative and run time test data sets are",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 3,
+      "page_label": "4",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "negative data generation scripts implemented\n\u2022 Extensive positive, negative and run time test data sets are \ngenerated based on the configuration provided\nTest execution report\n\u2022 Need to manually collate all the positive and negative test results \nto generate a test execution report\n\u2022 A Python agent will calculate the positive and negative test results \nand provide the report for download\nTesting Efficiency\nEase of use\n\u2022 Requires some technical expertise to implement the multi step \nprocess of generating the test data and execute the test cases \nusing the tool\n\u2022 A GUI provides simple options to upload the documentation and \nrun the complete process at a click of a button\nTechnical Highlights\n\u2022 Postman API execution tool can be used to automate the testing \nof endpoints\n\u2022 This includes implementing scripts to generate test data and \nscheduling the iterations\n\u2022 Built using Python which uses Open API to generate test data",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 3,
+      "page_label": "4",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 855
+    }
+  },
+  {
+    "text": "scheduling the iterations\n\u2022 Built using Python which uses Open API to generate test data\n\u2022 Agent built using Python to execute test cases and generate test \nreport \nL H L H\nPostman API testing vs Gen AI API Testing Tool\nA comprehensive comparison between Postman based API Testing and Gen AI based API Testing on the various \nimportant parameters like efforts, coverage, efficiency",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 3,
+      "page_label": "4",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 1699
+    }
+  },
+  {
+    "text": "5  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nSteps to setup Gen AI API Testing Tool\nBelow are the prerequisites and steps to download the latest code from Deloitte Enterprise Github and setup the \ntool on your local\nPre-requisites :\n\u2022 Docker CLI / Desktop \nRecommended installation:\nManual installation:\n\u2022 Python (3.9 or above)\n\u2022 Yarn\n\u2022 Node (20 alpine)",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 4,
+      "page_label": "5",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "6  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nGen AI API Testing Tool - Screenshots",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 5,
+      "page_label": "6",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "7  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nGen AI API Testing Tool \u2013 Screenshots \u2013 Generated Test data",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 6,
+      "page_label": "7",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "8  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nGen AI API Testing Tool \u2013 Screenshots \u2013 Test case execution",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 7,
+      "page_label": "8",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "9  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nGen AI API Testing Tool \u2013 Screenshots \u2013 Positive case success test report",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 8,
+      "page_label": "9",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "10  |  Copyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\nNext steps\n\u2022 CI/CD integration of API testing tool via Jenkins\n\u2022 Enhancing the tool to validate response for structural correctness",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 9,
+      "page_label": "10",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "About Deloitte\nDeloitte refers to one or more of Deloitte Touche  Tohmatsu Limited, a UK private company limited by guarantee (\u201cDTTL\u201d), its network of member firms, and their related \nentities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as \u201cDeloitt e Global\u201d) does not provide services to clients. \nPlease see www.deloitte.com/about for a detailed description of DTTL and its member firms. Please see www.deloitte.com/us/about for a detailed description of the legal \nstructure of Deloitte LLP and its subsidiaries. Certain services may not be available to attest clients under the rules and regu lations of public accounting.\nCopyright \u00a9 2024 Deloitte Development LLC. All rights reserved.\n36 USC 220506\nMember of Deloitte Touche Tohmatsu Limited",
+    "metadata": {
+      "producer": "Adobe PDF Library 24.4.19",
+      "creator": "Acrobat PDFMaker 24 for PowerPoint",
+      "creationdate": "2024-11-13T16:21:45+05:30",
+      "author": "Musicco, Sara (US - Chicago)",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_actionid": "23d6a2f5-a3fd-46a7-8158-e42057ae9495",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_contentbits": "0",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_enabled": "true",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_method": "Standard",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_name": "ea60d57e-af5b-4752-ac57-3e4f28ca11dc",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_setdate": "2022-08-23T12:28:25Z",
+      "msip_label_ea60d57e-af5b-4752-ac57-3e4f28ca11dc_siteid": "36da45f1-dd2c-4d1f-af13-5abe46b99921",
+      "moddate": "2024-11-13T16:21:47+05:30",
+      "title": "PowerPoint Presentation",
+      "source": "Static Data\\API_Test_tool_v5 1.pdf",
+      "total_pages": 11,
+      "page": 10,
+      "page_label": "11",
+      "source_type": "local_file",
+      "source_ref": "Static Data\\API_Test_tool_v5 1.pdf",
+      "start_index": 0
+    }
+  },
+  {
     "text": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval\nhttps://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval\nhttps://dzone.com/articles/performance-testing-rag-applications",
     "metadata": {
       "source": "Static Data\\Web URLS.txt",
       "source_type": "local_file",
       "source_ref": "Static Data\\Web URLS.txt",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AILaunch Week 02 wrapped \u2014 explore all five launchesConfident AIProductsLLM EvaluationBenchmark LLM systems with research-backed metrics.LLM ObservabilityTrace, monitor, and alert on production LLM systems.AI Red TeamingStress-test LLM apps against adversarial attacks.AI GovernanceEnforce AI standards and controls across teams.CommunityBlogBedtime stories on AI reliability.Knowledge BaseManual to navigate the evals landscape.DeepEvalThe open-source LLM evaluation framework.DeepTeamThe open-source LLM red teaming framework.DocsPricingCareers0Book a DemoSign UpProductsLLM EvaluationLLM ObservabilityAI Red TeamingAI GovernanceCommunityBlogKnowledge BaseDeepEvalDeepTeamDocsPricingCareersBook a DemoBackBlogRAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CDAug 8, 2025\u00b79 min readJeffrey IpCo-founder @ Confident AI. Creator of DeepEval & DeepTeam. Building an unhealthy LLM evals addiction. Ex-Googler",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "CI/CDAug 8, 2025\u00b79 min readJeffrey IpCo-founder @ Confident AI. Creator of DeepEval & DeepTeam. Building an unhealthy LLM evals addiction. Ex-Googler (YouTube), Microsoft AI (Office365).Retrieval-Augmented Generation (RAG) has become the most popular way to provide LLMs with extra context to generate tailored outputs. This is great for LLM applications like chatbots or AI agents, since RAG provides users with a much more contextualized experience beyond the data LLMs like GPT-4 were trained on.",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 849
+    }
+  },
+  {
+    "text": "Unsurprisingly, LLM practitioners quickly ran into problems with evaluating RAG applications during development. But thanks to research done by RAGAs, evaluating the generic retriever-generator performances of RAG systems is now a somewhat solved problem in 2024. Don\u2019t get me wrong, building RAG applications remains a challenge \u2014 you could be using the wrong embedding model, a bad chunking strategy, or outputting responses in the wrong format, which is exactly what frameworks like LlamaIndex are trying to solve.\nBut now, as RAG architectures grow in complexity and collaboration among LLM practitioners on these projects increases, the occurrence of breaking changes is becoming more frequent than ever.",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 1349
+    }
+  },
+  {
+    "text": "A mathematical representation\nFor this tutorial, we\u2019ll walk through how to set up a fully automated evaluation/testing suite to unit test RAG applications in your CI/CD pipelines. Ready to learn how to set up an ideal RAG development workflow?\nLet\u2019s begin.",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 2060
+    }
+  },
+  {
+    "text": "Let\u2019s begin.\nRAG Evaluation, In A NutshellIn one of my previous articles, I explained that a typical RAG architecture involves a retriever \u2014 a component that vector searches your knowledge base for retrieval contexts, and a generator \u2014 a component that takes the retrieval contexts from your retriever to construct a prompt and generate a custom LLM response as the final output.A typical RAG architectureA high-performing RAG system results from a high-performing retriever and generator. And so, RAG evaluation metrics now typically focus on evaluating these two components. The underlying assumption is that a RAG application can only excel if the retriever successfully retrieves the correct and relevant contexts, and if the generator can effectively use these contexts to produce desirable outputs (i.e., outputs that are factually correct and relevant).",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 2304
+    }
+  },
+  {
+    "text": "Common RAG MetricsFor the reasons discussed above, RAG evaluation metrics tend to focus on the retriever and generator respectively. Notably, RAGAs is a popular way to evaluate generic RAG performances and offers the following retrieval metrics (metrics for the retriever). Let's go over the common RAG evaluation metrics:Contextual RecallContextual recall measures how well the retrieval context encapsulates information in the expected output. Contextual recall concerns the retriever, and requires the expected output as a target label. This might be confusing for some but the reason why the expected output is requires is because it wouldn't make sense to use the actual output as the ground truth. Think about it, how can you determine the quality of the retrieval context if you don't know what ideal output to expect?Contextual PrecisionContextual precision is a metric that measures how well your RAG retriever ranks the retrieval context based on relevance. This is important because, LLMs",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 3165
+    }
+  },
+  {
+    "text": "precision is a metric that measures how well your RAG retriever ranks the retrieval context based on relevance. This is important because, LLMs tend to consider nodes that are closer to the end of the prompt template more. This means a bad reranker, would cause your LLM to focus on the \"wrong\" retrieval nodes, which may lead to hallucination or irrelevant answers down the line.Answer RelevancyAnswer relevancy measures how relevant your RAG generator, which is often times just the LLM and prompt itself, is able to generate answers. Note that answer relevancy directly relates to the quality of the retriever, since generating outputs in a RAG pipeline requires information from the retrieval context. Have misleading or irrelevant retrieval context, and you're guaranteed to output less relevant answers.FaithfulnessFaithfulness measures the degree of hallucination outputted by your RAG generator using the retrieval context as the ground truth. Similar to answer relevancy, the degree of",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 4021
+    }
+  },
+  {
+    "text": "degree of hallucination outputted by your RAG generator using the retrieval context as the ground truth. Similar to answer relevancy, the degree of faithfulness depends on the relevancy of the retrieval context.(For those interested, I highly recommend this article where I explain in depth what each RAG metrics do and how they are implemented)",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 4868
+    }
+  },
+  {
+    "text": "RAG Metrics, Not so Perfect After AllTheir greatest strength, beyond their effectiveness, is their use-case agnostic nature. Whether you\u2019re building a chatbot for financial advisors or a data extraction application, these metrics will perform as expected. Ironically, despite being use-case agnostic, you\u2019ll soon discover that these metrics are ultimately too generic. A chatbot for financial advisors might require additional metrics like bias when handling client data, while a data extraction application might need metrics to ensure outputs conform to a JSON format.Besides the generic RAG evaluation metrics, here\u2019s how you can incorporate additional LLM evaluation metrics into your RAG evaluation pipeline using DeepEval. First, install DeepEval:bashpip install deepevalThen, import and define your RAGAs metrics:pythonfrom deepeval.metrics.ragas import (\n    RAGASContextualPrecisionMetric,\n    RAGASFaithfulnessMetric,\n    RAGASContextualRecallMetric,\n    RAGASAnswerRelevancyMetric,\n)",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 5214
+    }
+  },
+  {
+    "text": "contextual_precision = RAGASContextualPrecisionMetric()\ncontextual_recall = RAGASContextualRecallMetric()\nanswer_relevancy = RAGASAnswerRelevancyMetric()\nfaithfulness = RAGASFaithfulnessMetric()And include any additional metrics apart from the RAG metrics, using G-Eval:pythonfrom deepeval.metrics import GEval\nfrom deepeval.test_case import LLMTestCaseParams\n\nbias = GEval(\n    name=\"Bias\",\n    criteria=\"Coherence - determine if the actual output has an inherent bias against Asian culture.\",\n    evaluation_params=[LLMTestCaseParams.ACTUAL_OUTPUT],\n)Lastly, define a test case to evaluate your RAG application based on these metrics:pythonfrom deepeval import evaluate\nfrom deepeval.test_case import LLMTestCase\n\ntest_case = LLMTestCase(\n  input=\"\",\n  actual_output=\"\",\n  expected_output=\"\",\n  retrieval_context=[\"\"]\n)",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 6210
+    }
+  },
+  {
+    "text": "evaluate(\n  test_cases=[test_case], \n  metrics=[\n    contextual_precision, \n    contextual_recall, \n    answer_relevancy, \n    faithfulness,\n    bias\n  ]\n)Now this is all great for quick prototyping, but what if you\u2019re looking to setup your LLM game and actually include evaluations as part of your development workflow?AI Quality for the entire organization, not just individual teamsGive all AI use cases the same quality bar with all-in-one evals, observability, and red teaming, and enforce them at scale.Evals for product teams, not just engineers.Open-source, auditabile metrics.Observability for production traffic.Pre-deployment quality gates.Book a DemoOr sign up",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 7033
+    }
+  },
+  {
+    "text": "Unit Testing RAG Applications with DeepEvalDeepEval is an open-source evaluation framework for LLMs (also often referred to as unit testing/Pytest for LLMs, or a full testing suite for LLMs). In the previous section, we explored how to use RAG evaluation metrics and additional use-case specific metrics to evaluate RAG applications. In this section, we\u2019ll walk through a complete example of unit testing with DeepEval.PrerequisitesUnlike other engineering/data scientist workflows, the primary goal of evaluation in CI/CD pipelines is to safeguard against breaking changes made to your RAG application for a specific git commit/PR. So, a static evaluation dataset that doesn\u2019t reflect changes made to your RAG application is not suitable.So, please don\u2019t prepare an evaluation dataset containing the actual outputs and retrieval contexts of your RAG application beforehand. Instead, prepare a set of inputs and the expected outputs you want to test the corresponding actual outputs of your RAG",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 7706
+    }
+  },
+  {
+    "text": "RAG application beforehand. Instead, prepare a set of inputs and the expected outputs you want to test the corresponding actual outputs of your RAG application against, since we will run our RAG application at evaluation time.Install DeepEval, and optionally login (and I promise you won't be disappointed):bashpip install deepeval",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 8553
+    }
+  },
+  {
+    "text": "deepeval loginCreate A Test FileAlthough we showed how to use DeepEval\u2019s evaluate function in the previous section, we\u2019re going to ditch that approach here and leverage DeepEval\u2019s Pytest integration instead.To begin, create a test file:bashtouch test_rag.pyInitialize Evaluation MetricsSimilar to the previous example, initialize your evaluation metrics in the newly created test file:pythonfrom deepeval.metrics.ragas import (\n    RAGASContextualPrecisionMetric,\n    RAGASFaithfulnessMetric,\n    RAGASContextualRecallMetric,\n    RAGASAnswerRelevancyMetric,\n)\nfrom deepeval.metrics import BiasMetric",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 8885
+    }
+  },
+  {
+    "text": "bias = BiasMetric(threshold=0.5)\ncontextual_precision = RAGASContextualPrecisionMetric(threshold=0.5)\ncontextual_recall = RAGASContextualRecallMetric(threshold=0.5)\nanswer_relevancy = RAGASAnswerRelevancyMetric(threshold=0.5)\nfaithfulness = RAGASFaithfulnessMetric(threshold=0.5)Notice how you can optionally define thresholds for each metric. Each metric in DeepEval outputs a score from 0\u20131, and a metric only passes if the score is equal or higher than the threshold. On the other hand, a test case, as we\u2019ll see later, only passes if all metrics are passing.Define Inputs and Expected OutputsHere, you will define the set of inputs you wish to run your RAG application on at evaluation time.python...",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 9486
+    }
+  },
+  {
+    "text": "# Replace this with your own data\ninput_output_pairs = [\n  {\n    \"input\": \"...\",\n    \"expected_output\": \"...\", \n  },\n  {\n    \"input\": \"...\",\n    \"expected_output\": \"...\", \n  }\n](Note: You can also import these data from CSV or JSON files)Full ExamplePutting everything together, here\u2019s a full example of how you can unit test RAG applications with DeepEval:pythonimport pytest\nfrom deepeval import assert_test\nfrom deepeval.metrics.ragas import (\n    RAGASContextualPrecisionMetric,\n    RAGASFaithfulnessMetric,\n    RAGASContextualRecallMetric,\n    RAGASAnswerRelevancyMetric,\n)\nfrom deepeval.metrics import BiasMetric\nfrom deepeval.test_case import LLMTestCase",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 10192
+    }
+  },
+  {
+    "text": "#######################################\n# Initialize metrics with thresholds ##\n#######################################\nbias = BiasMetric(threshold=0.5)\ncontextual_precision = RAGASContextualPrecisionMetric(threshold=0.5)\ncontextual_recall = RAGASContextualRecallMetric(threshold=0.5)\nanswer_relevancy = RAGASAnswerRelevancyMetric(threshold=0.5)\nfaithfulness = RAGASFaithfulnessMetric(threshold=0.5)\n\n#######################################\n# Specify evaluation metrics to use ###\n#######################################\nevaluation_metrics = [\n  bias,\n  contextual_precision,\n  contextual_recall,\n  answer_relevancy,\n  faithfulness\n]\n\n#######################################\n# Specify inputs to test RAG app on ###\n#######################################\ninput_output_pairs = [\n  {\n    \"input\": \"\",\n    \"expected_output\": \"\", \n  },\n  {\n    \"input\": \"\",\n    \"expected_output\": \"\", \n  }\n]",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 10855
+    }
+  },
+  {
+    "text": "#######################################\n# Loop through input output pairs #####\n#######################################\n@pytest.mark.parametrize(\n    \"input_output_pair\",\n    input_output_pairs,\n)\ndef test_llamaindex(input_output_pair: Dict):\n    input = input_output_pair.get(\"input\", None)\n    expected_output = input_output_pair.get(\"expected_output\", None)\n\n    # Hypothentical RAG application for demonstration only. \n    # Replace this with your own RAG implementation.\n    # The idea is you'll be generating LLM outputs and\n    # getting the retrieval context at evaluation time for each input\n    actual_output = rag_application.query(input)\n    retrieval_context = rag_application.get_retrieval_context()",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 11743
+    }
+  },
+  {
+    "text": "test_case = LLMTestCase(\n        input=input,\n        actual_output=actual_output,\n        retrieval_context=retrieval_context,\n        expected_output=expected_output\n    )\n    # assert test case\n    assert_test(test_case, evaluation_metrics)Finally, execute the test file via the CLI:bashdeepeval test run test_rag.py(I\u2019m going to spare you all the details here but for a more comprehensive example, visit the docs)A few things to note:\nMost metrics are evaluated using OpenAI\u2019s GPT models by default, so remember to set your OpenAI API Key as an environment variable.\nYou\u2019re able to define passing thresholds, and specify the evaluation model you wish to use for each metric.\nA test case passes if and only if all evaluation metrics are passing.\nYou can include as many metrics as you wish. You can find the full list of metrics here.\nYou can import input and expected output pairs from CSV/JSON files for cleaner code.",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 12462
+    }
+  },
+  {
+    "text": "You can import input and expected output pairs from CSV/JSON files for cleaner code.\nWe used Pytest decorators (@pytest.mark.parametrize) to loop through the input output pairs when executing unit tests.\nThe actual output and retrieval context are dynamically generated. In the example above, we used a hypothetical RAG implementation, and you\u2019ll have to replace it with your own RAG application instead. (For LlamaIndex users, here is a nice example from DeepEval\u2019s docs.)",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 13300
+    }
+  },
+  {
+    "text": "Unit Testing RAG in CI/CD PipelinesHere's the good news is, it turns out you\u2019ve already done 99% of the hard work required. Now all that\u2019s left is to include the deepeval test run command to your CI/CD environment. Using GitHub Actions as an example, here\u2019s an example of how you can add DeepEval to your GitHub workflows YAML files:yamlname: RAG Deployment Evaluations",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 13775
+    }
+  },
+  {
+    "text": "on:\n\tpush:\n  \njobs:  \n\ttest:    \n  \truns-on: ubuntu-latest\n\t\tsteps:\n    \t# Some extra steps to setup and install dependencies\n    \t...\n      \n       # Optional Login\n     \t- name: Login to Confident\n        env:\n          CONFIDENT_API_KEY: ${{ secrets.CONFIDENT_API_KEY }}\n        run: poetry run deepeval login --confident-api-key \"$CONFIDENT_API_KEY\"\n        \n      - name: Run deepeval tests\n        env:\n          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 14146
+    }
+  },
+  {
+    "text": "- name: Run deepeval tests\n        env:\n          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}\n        run: poetry run deepeval test run test_rag.pyNote that your workflow file does NOT have to be same as the example shown above, but you get the point \u2014 you\u2019re good to go as long as you setup the correct environment variables and include the deepeval test run command in your CI/CD environment. (In this example, we used poetry for installation, optionally logged into Confident AI to keep track of all pre-deployment evaluations, and GitHub secrets to store and access our Confident and OpenAI API key, which is not a strict requirement.)Congratulations! You are now officially unit testing your RAG application in CI/CD pipelines! Remember the graph from the beginning of this article? It now looks like this instead:Another mathematical representation",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 14515
+    }
+  },
+  {
+    "text": "ConclusionExisting RAG evaluation metrics, such as RAGAs, are excellent for assessing generic retriever-generator performance but often fall short for use-case-specific applications. Moreover, evaluations are not just a sanity check but a measure put in place to protect against breaking changes, especially in a collaborative development environment. Hence, incorporating evaluations into CI/CD pipelines is crucial for any serious organization developing RAG applications.If you aim to implement your own evaluation metrics to address the shortcomings of generic RAG metrics and seek a production-grade testing framework for inclusion in CI/CD pipelines, DeepEval is an excellent option. We\u2019ve done all the hard work for you already, and it features over 14 evaluation metrics, supports parallel test execution, and is deeply integrated with Confident AI, the world\u2019s first open-source evaluation infrastructure for LLMs.Don\u2019t forget to give \u2b50 DeepEval a star on Github \u2b50 if you\u2019ve enjoyed this",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 15372
+    }
+  },
+  {
+    "text": "AI, the world\u2019s first open-source evaluation infrastructure for LLMs.Don\u2019t forget to give \u2b50 DeepEval a star on Github \u2b50 if you\u2019ve enjoyed this article and as always, thank you for reading.Do you want to brainstorm how to evaluate your LLM (application)? Ask us anything in our discord. I might give you an \"aha!\" moment, who knows?AI Quality for the entire organization, not just individual teamsGive all AI use cases the same quality bar with all-in-one evals, observability, and red teaming, and enforce them at scale.Evals for product teams, not just engineers.Open-source, auditabile metrics.Observability for production traffic.Pre-deployment quality gates.Book a DemoOr sign upIn this storyRAG Evaluation, In A NutshellCommon RAG MetricsContextual RecallContextual PrecisionAnswer RelevancyFaithfulnessRAG Metrics, Not so Perfect After AllUnit Testing RAG Applications with DeepEvalPrerequisitesCreate A Test FileInitialize Evaluation MetricsDefine Inputs and Expected OutputsFull ExampleUnit",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 16226
+    }
+  },
+  {
+    "text": "Testing RAG Applications with DeepEvalPrerequisitesCreate A Test FileInitialize Evaluation MetricsDefine Inputs and Expected OutputsFull ExampleUnit Testing RAG in CI/CD PipelinesConclusionPresenting...The open-source LLM evaluation framework.Star on GitHubMore stories from us...ProductsLLM EvaluationLLM ObservabilityAI Red TeamingAI GovernanceLaunch WeekBlogLLM evaluation metricsLLM-as-a-judgeLLM chatbot evaluationLLM testingLLM dataset generationLLM red-teamingResourcesBlogQuickStartDeepEval DocsDeepTeam DocsCompanyOpen-sourcePricingCareersLegal StuffTerms of ServicePrivacy PolicyCookie PolicySub-ProcessorsData Processing AgreementCookie SettingsSOC 2TYPE IIHIPAACOMPLIANTGDPRCOMPLIANTCopyright @ 2026 Confident AI Inc. All rights reserved.Confident AI",
+    "metadata": {
+      "source": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "title": "RAG Evaluation: The Definitive Guide to Unit Testing RAG in CI/CD - Confident AI",
+      "description": "Unit-test RAG applications in CI/CD with DeepEval: score retrieval and generation separately and block regressions on every commit before they reach production.",
+      "language": "en",
+      "source_type": "website",
+      "source_ref": "https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval",
+      "start_index": 17076
+    }
+  },
+  {
+    "text": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud BlogJump to ContentCloudBlogContact sales Get started for free CloudBlogSolutions & technologyAI & Machine LearningAPI ManagementApplication DevelopmentApplication ModernizationChrome EnterpriseComputeContainers & KubernetesData AnalyticsDatabasesDevOps & SREMaps & GeospatialSecuritySecurity & IdentityThreat IntelligenceInfrastructureInfrastructure ModernizationNetworkingProductivity & CollaborationSAP on Google CloudStorage & Data TransferSustainabilityEcosystemIT LeadersIndustriesFinancial ServicesHealthcare & Life SciencesManufacturingMedia & EntertainmentPublic SectorRetailSupply ChainTelecommunicationsPartnersStartups & SMBTraining & CertificationsInside Google CloudGoogle Cloud Next & EventsGoogle Cloud ConsultingGoogle Maps PlatformGoogle WorkspaceDevelopers & PractitionersTransform with Google CloudContact sales Get started for free AI & Machine LearningOptimizing RAG retrieval: Test,",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 0
+    }
+  },
+  {
+    "text": "WorkspaceDevelopers & PractitionersTransform with Google CloudContact sales Get started for free AI & Machine LearningOptimizing RAG retrieval: Test, tune, succeedDecember 19, 2024Hugo SelbieStaff Customer & Partner Solutions Engineer, GoogleTom PakemanCustomer Partner & Solutions EngineerTry Gemini Enterprise Business Edition todayThe front door to AI in the workplaceTry now Retrieval-augmented generation (RAG) supercharges large language models (LLMs) by connecting them to real-time, proprietary, and specialized data. This helps LLMs deliver more accurate, relevant, and contextually aware responses, minimizing hallucinations and building trust in AI applications.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 850
+    }
+  },
+  {
+    "text": "But RAG can be a double-edged sword: while the concept is straightforward \u2013 find relevant information and feed it to the LLM \u2013 its implementation is difficult to master. Done incorrectly, it can impact user trust in your AI's reliability. The culprit is often a lack of thorough evaluation. RAG systems that are not thoroughly evaluated lead to \u2018silent failures\u2019 which can undermine the reliability and trustworthiness of the system as a whole.\nIn this blog post, we'll equip you with a series of best practices to identify issues within your RAG system and fix them with a transparent, automated evaluation framework.$300 in free credit to try Google Cloud AI and MLBuild and test your proof of concept with $300 in free credit for new customers. Plus, all customers get free monthly usage of 20+ products, including AI APIs.Start building for free Step 1. Create a testing framework",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 1524
+    }
+  },
+  {
+    "text": "Testing a RAG system consists of running a set of queries against the tool and evaluating the output. A key prerequisite for rapid testing and iteration is to decide on a set of metrics as the definition of success, and calculate them in a rigorous, automated, and repeatable fashion. Below are some guidelines:",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 2409
+    }
+  },
+  {
+    "text": "Assemble a test dataset of high-quality questions\n\n\n\nEnsure that your test set covers a broad subset of the underlying data, and includes variations in phrasing and question complexity that match real-world use cases.\n\n\nPro tip: It\u2019s a good idea to consult with stakeholders and end users here to ensure the quality and relevance of this dataset.\n\n\n\nAssemble a \u2018golden\u2019 reference dataset of desired outputs to use in evaluation\n\n\n\nAlthough some metrics can be calculated without a reference dataset, having a set of known-good outputs allows us to produce a more comprehensive and nuanced range of evaluation metrics.\n\n\n\nOnly change one variable at a time between test runs\n\n\n\nThere are many features of a RAG pipeline that can make a difference \u2013 by changing them one at a time, we can be sure that a change in evaluation scores is attributable to a single feature alone.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 2723
+    }
+  },
+  {
+    "text": "Similarly, we must ensure that between test runs we do not change the evaluation questions being used, the reference answers, or any system-wide parameters and settings.\n\n\n\nThe basic process here is to change one aspect of the RAG system, run the battery of tests, adapt the feature, run the exact same battery of tests again and then see how the test results have changed. Once you are satisfied that a feature cannot be improved, freeze the configuration and move on to testing a separate part of the process.\u00a0\nThis testing framework can be visualized as three components:\u00a0\n\n\nReference questions and answers:\u00a0\n\n\n\nThe set of queries to be evaluated. Depending on which metrics are being calculated we may include corresponding reference answers.\n\n\n\nRAG processes\n\n\n\nThe retrieval and summarization techniques being changing and evaluated\n\n\n\nQuestion outputs\n\n\n\nThe evaluation outputs as scored by the testing framework",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 3599
+    }
+  },
+  {
+    "text": "Choosing appropriate metrics\nEstablishing the best metrics to assess your system involves trial and error. Predefined testing frameworks exist that have been designed to speed up the process by providing prebuilt metrics that can also be adapted to your specific use case. This allows you to quickly generate baseline scores for the evaluation and refinement of your RAG system. From this baseline, you can then systematically modify retrieval and generation capabilities and measure any improvements.\nCommon RAG evaluation frameworks include:\nRagas\nRagas is an open-source tool for evaluating RAG systems. It measures key aspects like factual accuracy, answer relevance, and how well retrieved content matches the question. Ragas also helps generate test data, making it easier for developers to improve RAG systems for accuracy and usefulness.\nVertex AI gen AI evaluation service",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 4521
+    }
+  },
+  {
+    "text": "Vertex AI gen AI evaluation service\nThe Vertex AI gen AI evaluation service helps users test and compare generative models or applications based on custom metrics. It supports model selection, prompt engineering, and fine-tuning and allows users to define metrics, prepare data, run evaluations, and review results. The service works with Google's models, third-party models, and open models across various languages, using both model-based and computation-based assessment methods.\nExample metrics\nModel-based metrics utilize a proprietary Google model to assess the output of a candidate model. Functioning as an evaluator, this model scores responses based on predefined criteria.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 5367
+    }
+  },
+  {
+    "text": "Pointwise metrics: The judge model assigns a numerical score (e.g., on a scale of 0-5) to the candidate model's output, indicating its alignment with the evaluation criteria. A higher score signifies a better fit.\n\n\nPairwise metrics: The judge model compares the responses of two models and identifies the superior one. This approach is frequently employed to benchmark a candidate model against a baseline model.\n\n\nComputation-based metrics: These metrics utilize mathematical formulas to compare the model's output against a ground truth or reference. Popular examples include ROUGE and BLEU.\nOpinionated tiger team actions\n\n\nCollaborate with stakeholders to develop a set of \"golden\" question inputs. These questions should accurately reflect the main use cases the RAG system is intended to address. It's crucial to include a diverse range of query types, such as simple, complex, multi-part, and misspelled queries to ensure comprehensive testing.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 6053
+    }
+  },
+  {
+    "text": "Make use of the Vertex AI generative AI evaluation framework. This framework allows developers to quickly implement multiple test metrics, and run multiple tests on a model\u2019s performance with minimal setup. It offers a fast feedback loop, so improvements can be made rapidly.\n\n\nConduct a pointwise evaluation of the RAG retrieval system.\n\n\nGenerate model scores based on the following criteria:\n\n\n\nResponse groundedness: The extent to which the generated text aligns with the factual information retrieved from the source documents.\n\n\nVerbosity: The length and detail of the response. While beneficial for providing comprehensive understanding, excessive verbosity may indicate difficulty in concisely and accurately answering the question. You may wish to tune this metric based on your use case.\n\n\nInstruction following: The system's ability to generate text that accurately and comprehensively adheres to given instructions, ensuring the output is relevant and aligned with user intent.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 7008
+    }
+  },
+  {
+    "text": "Question answer quality as related to instructions: The ability of the RAG system to generate text that correctly answers a user's question with a high level of detail and coherence.\n\n\n\nStore results in a shared location such as Vertex AI Experiments, which allows for simple comparisons over time.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 8000
+    }
+  },
+  {
+    "text": "Step 2. Root cause analysis and iterative testing\u00a0\nThe goal of setting up a repeatable testing framework is ideally understanding the root cause of issues. RAG is fundamentally based on two components: (1) the retrieval accuracy of your nearest neighbor matches and (2) the context that you provide to the LLM that generates your responses.\nIdentifying and isolating these components individually allows you to determine the specific areas that may be causing problems and formulating testable hypotheses that can be performed as experiments and run in Vertex AI using the Gen AI evaluation framework.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 8301
+    }
+  },
+  {
+    "text": "Typically when performing a root cause analysis exercise, the user will execute a testing run as a baseline, modify the implementation of one of the RAG components, and re-execute the testing run. The delta between the output scores of the testing metrics is the influence of the RAG component that was altered. The goal in this phase is to modify and document the components carefully, aiming to optimize towards a maximum score for each of the chosen metrics. Often the temptation is to make multiple modifications between testing runs which can mask the impact of a specific process and whether it was successful in creating a measurable change in your RAG system.\nExamples of RAG experiments to run\nExample RAG components to experiment with:",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 8903
+    }
+  },
+  {
+    "text": "What is the ideal number of neighbors for a document chunk that gets passed into an LLM to improve answer generation?\n\n\nHow does embedding model choice affect retrieval accuracy?\n\n\nHow do different chunking strategies affect quality? For example, adjusting variables like chunk size or overlap, or exploring strategies such as pre-processing chunks to summarize or paraphrase them with a language model.\n\n\nWhen it comes to generation, simply comparing Model A vs. Model B or Prompt A vs. Prompt B is particularly useful for fine-tuning prompt design or adjusting model configurations, helping developers to optimize models and prompts for specific use cases.\n\n\nWhat happens when you enrich documents with metadata like title, author, and tags for better retrieval signals?\n\n\nOpinionated tiger team actions\n\n\nTest model A vs model B for generation tasks (simple and can produce measurable results)",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 9651
+    }
+  },
+  {
+    "text": "Opinionated tiger team actions\n\n\nTest model A vs model B for generation tasks (simple and can produce measurable results)\n\n\nTest chunking strategies for retrieval within a single embedding model (400 chars, 600 chars, 1200 chars, Full document text)\n\n\nTest pre-processing of long chunks to summarize them to smaller chunk sizes.\n\n\nTest what data is passed to the LLM as context. For example, do we pass the matched chunks themselves, or use these as a lookup to find the source document and pass the whole document text to the LLM, making use of long context windows.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 10426
+    }
+  },
+  {
+    "text": "Step 3. Human evaluation\nAlthough quantitative metrics created by your testing framework provide valuable data, qualitative feedback from real users is also crucial. Automated testing tools are efficient for scalability and rapid iteration, but they cannot replicate human judgment in ensuring high-quality output. Human testers can evaluate subtle aspects like the tone of responses, the clarity of explanations, and potential ambiguity. Combining qualitative and quantitative testing provides a more holistic understanding of your RAG system\u2019s performance.",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 10996
+    }
+  },
+  {
+    "text": "Human tests are typically run after you\u2019ve achieved a solid level of baseline answer quality by optimizing evaluation metrics through the automated testing framework. You may wish to include human response evaluation as part of your broader user-testing motions for the system as a whole, such as performance, UX, etc. Similar to previous experiments, human testers can focus on specific system features following structured steps, or they can assess the overall application and provide comprehensive qualitative feedback.\u00a0\nBecause human testing is time consuming and repetitive, it is essential to identify users who are engaged and willing to provide meaningful feedback.\nOpinionated tiger team actions",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 11555
+    }
+  },
+  {
+    "text": "Identify key personas based on the RAG system\u2019s target users\n\n\nRecruit a representative sample of participants that matches these personas to ensure realistic feedback.\n\n\nIf possible, include both technical and non-technical user groups for testing\n\n\nSit with the user (if possible) to ask follow-up questions and dig into the detail of their responses",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 12262
+    }
+  },
+  {
+    "text": "Conclusion\nTo begin your own evaluation, explore Google Cloud\u2019s generative AI evaluation service, where you can create both prebuilt and custom evaluation methodologies to enhance your RAG system.Posted inAI & Machine LearningDevelopers & PractitionersRelated articlesAI & Machine LearningGoogle named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model SoftwareBy Michael Gerstenhaber \u2022 3-minute readAI & Machine LearningClaude at scale on Google Cloud: Frontier AI, built for enterprise productionBy Schneider Larbi \u2022 7-minute readSecurity & IdentitySecuring the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMsBy Glen Messenger \u2022 5-minute readData AnalyticsFrontier and Center: Who evaluates the evaluations?By Manav Garg \u2022 10-minute readFooter LinksFollow usGoogle CloudGoogle Cloud ProductsPrivacyTermsCookies management controlsHelpLanguage\u202aEnglish\u202c\u202aDeutsch\u202c\u202aFran\u00e7ais\u202c\u202a\ud55c\uad6d\uc5b4\u202c\u202a\u65e5\u672c\u8a9e\u202c",
+    "metadata": {
+      "source": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "title": "RAG systems: Best practices to master evaluation for accurate and reliable AI. | Google Cloud Blog",
+      "description": "Improve your LLM's accuracy with RAG. Learn how to evaluate and optimize your system for reliable AI.",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval",
+      "start_index": 12617
+    }
+  },
+  {
+    "text": "Just a moment...Enable JavaScript and cookies to continue",
+    "metadata": {
+      "source": "https://dzone.com/articles/performance-testing-rag-applications",
+      "title": "Just a moment...",
+      "language": "en-US",
+      "source_type": "website",
+      "source_ref": "https://dzone.com/articles/performance-testing-rag-applications",
       "start_index": 0
     }
   }
