@@ -1,0 +1,3 @@
+https://www.confident-ai.com/blog/how-to-evaluate-rag-applications-in-ci-cd-pipelines-with-deepeval
+https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval
+https://dzone.com/articles/performance-testing-rag-applications
